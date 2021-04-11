@@ -1,0 +1,2 @@
+com/example/apprateionavegacao/ExampleUnitTest.java
+ com.example.apprateionavegacao.ExampleUnitTest

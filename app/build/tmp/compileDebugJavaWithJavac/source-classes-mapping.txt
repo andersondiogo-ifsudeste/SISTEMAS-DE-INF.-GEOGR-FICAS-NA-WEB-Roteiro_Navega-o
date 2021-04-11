@@ -1,0 +1,6 @@
+com/example/apprateionavegacao/MainActivity.java
+ com.example.apprateionavegacao.MainActivity
+com/example/apprateionavegacao/BuildConfig.java
+ com.example.apprateionavegacao.BuildConfig
+com/example/apprateionavegacao/MinhaLocalizacaoListener.java
+ com.example.apprateionavegacao.MinhaLocalizacaoListener

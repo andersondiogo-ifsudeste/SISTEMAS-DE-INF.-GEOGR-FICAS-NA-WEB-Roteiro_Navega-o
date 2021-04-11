@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.apprateionavegacao"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <uses-feature
+15-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:8:5-78
+16        android:glEsVersion="0x00020000"
+16-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:8:19-51
+17        android:required="true" />
+17-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:8:52-75
+18s
+19    <application
+19-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:10:5-24:19
+20        android:allowBackup="true"
+20-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\Anderson Diogo\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:13:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:15:9-35
+28        android:theme="@style/Theme.AppRateioNavegacao" >
+28-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:16:9-56
+29        <activity android:name="com.example.apprateionavegacao.MainActivity" >
+29-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:17:9-23:20
+29-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:17:19-47
+30            <intent-filter>
+30-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:18:13-22:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:19:17-69
+31-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:19:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:21:17-77
+33-->C:\Users\Anderson Diogo\Desktop\roteiro_navegacao_app\app\src\main\AndroidManifest.xml:21:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
